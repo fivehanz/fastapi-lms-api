@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fastapi-lms-api"
+version = "0.1.0"
+description = "A fastapi learning attempt, inspired from faraday academy."
+authors = ["Hanz <haniel56@zoho.eu>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+uvicorn = {extras = ["standard"], version = "^0.17.1"}
+fastapi = "^0.73.0"
+pydantic = "^1.9.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
